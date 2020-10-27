@@ -1,0 +1,65 @@
+<center>
+<div class="listing1">
+<div class="title">
+<h1>Bowling @ Lucky Strike Boston</h1>
+<h2>145 Ipswich St, Boston</h2>
+</div>
+<div class="image">
+<img src="https://jilliansboston.com/wp-content/uploads/2016/04/lucky-strike-2018-32-960x450.jpg" style="width:100%">
+</div>
+<div class="booknow">
+<div class="booknowtext">Book Now</div>
+</div>
+<div class="description">
+<p>one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten</p>
+</div>
+</div>
+</center>
+<style>
+
+p {
+margin-left: 2.75%;
+margin-right: 2.75%;
+}
+
+.listing1 {
+width: 75%;
+background-color: blue;
+border-style: solid;
+border-color: red;
+transition-duration: 1s;
+}
+
+.listing1:hover {
+margin-top: 4%;
+}
+
+.title {
+background-color: blue;
+border-style: solid;
+border-color: red;
+}
+
+.booknow {
+background-color: blue;
+border-style: solid;
+border-color: red;
+}
+
+.booknowtext {
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+.description {
+background-color: blue;
+border-style: solid;
+border-color: red;
+}
+
+.image {
+background-color: blue;
+border-style: solid;
+border-color: red;
+}
+</style>
