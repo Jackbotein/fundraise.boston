@@ -17,14 +17,25 @@
 </center>
 <style>
 
+h1 {
+font-size: 23px;
+margin-bottom: -3%;
+}
+
+h2 {
+font-size: 15px;
+margin-bottom: 1.25%;
+}
+
 p {
+font-size: 75%;
 text-align: left;
 margin-left: 2.75%;
 margin-right: 2.75%;
 }
 
 .listing1 {
-width: 75%;
+width: 50%;
 background-color: blue;
 border-style: solid;
 border-color: black;
