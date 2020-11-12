@@ -1,55 +1,35 @@
- <!DOCTYPE html>
 <html>
   <head>
-    <title>Boston Adventures</title>
+    <title>Boston Experiences</title>
     <link
       rel="stylesheet"
       type="text/css"
       href="https://busun.github.io/experiences.boston/full-page-scroll.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <style type="text/css">
-      .section1 {
-        background-color: rgb(0,0,0);
-      }
-
-      .section2 {
-        background-color: #fffff;
-      }
-
-      .section3 {
-        background-color: #fffff;
-      }
-
-      .section4 {
-        background-color: #fffff;
-      }
-
-      .section5 {
-        background-color: #fffff;
-      }
-
-      section div {
-        font-family: "Open Sans";
-        font-style: normal;
-        text-align: center;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-
-      span {
-        font-size: 4em;
-        font-style: normal;
-        color: #fff;
-      }
-      
-      button {
-      font-size: 15px;
+  </head>
+  <body>
+  <center>
+    <div id="main" class="scroll-container">
+      <section style="background-color:black">Section 1</section>
+      <section style="background-color:white"> 
+      <img src="https://busun.github.io/experiences.boston/listing1.png" style="max-height: 650px;">
+          <a href=""><button><h1>Book Now</h1></button></a></section>
+      <section style="background-color:white">Section 3</section>
+    </div>
+    </center>
+    <script src="https://busun.github.io/experiences.boston/full-page-scroll.js"></script>
+    <script type="text/javascript">
+      new fullScroll({
+        mainElement: "main",
+        displayDots: false,
+        dotsPosition: "left",
+        animateTime: 0.7,
+        animateFunction: "ease",
+      });
+    </script>
+    <style>
+          button {
+      font-size: 100%;
       width: 20%;
       background-color: #aed8e6;
       border-width: 0px;
@@ -57,71 +37,16 @@
       transition-duration: .5s;
       }
       
-      button:hover {
+            button:hover {
       width: 22%;
-      font-size: 16.5px;
+      font-size: 110%;
       }
       
       a {
       text-decoration: none;
       color: black;
       }
-      
-      .descriptiontext {
-      font-size: 2em;
-      color: white;
-      font-style: normal;
-      }
-      
-      ::selection {
-background-color: rgb(0, 0, 0);
-color: #ffffff;
-	  }
     </style>
-  </head>
-  <body>
-    <div id="main" class="scroll-container">
-      <section class="section1">
-        <div>
-          <span>Boston Adventures</span>
-          <br>
-          <br>
-          <br>
-          <div class="descriptiontext">Discounts on cultural institutions in Greater Boston, MA</div>
-        </div>
-      </section>
-      <section class="section2">
-        <div>
-          <center><img src="https://busun.github.io/experiences.boston/listing1.png" style="max-height: 650px;"></center>
-          <a href=""><button><h1>Book Now</h1></button></a>
-        </div>
-      </section>
-      <section class="section3">
-        <div>
-          <span> Anuncie aqui </span>
-        </div>
-      </section>
-      <section class="section4">
-        <div>
-          <span> Funciona até no IE ^^ (IE 9 +)! </span>
-        </div>
-      </section>
-      <section class="section5">
-        <div>
-          <span> Edivaldo Pericleiton Rasta </span>
-        </div>
-      </section>
-    </div>
-    <script src="https://busun.github.io/experiences.boston/full-page-scroll.js"></script>
-    <script type="text/javascript">
-      new fullScroll({
-        mainElement: "main",
-        displayDots: false,
-        dotsPosition: "right",
-        animateTime: 1.0,
-        animateFunction: "ease",
-      });
-    </script>
   </body>
 </html>
 
