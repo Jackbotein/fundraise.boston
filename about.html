@@ -1,9 +1,22 @@
-<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body style="background-color: black;">
-<center>
+  <head>
+    <title>Boston Experiences</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://jackbotein.github.io/fundraise.boston/full-page-scroll.css"
+    />
+  </head>
+  <body>
+    <div id="main" class="scroll-container">
+      <section style="background-color:black">
+
+
+
+
+
+      </section>
+      <section style="background-color:black"><center>
 <div class="jackbio">
 <div class="Jackbiocontainer">
 <div class="overlaytext">Jack is a sophmore in high school at the Beaver Country Day School, outside of Boston Massachusetts. He is a cross country athlete, frequent Model United Nations delegate, passionate environmentalist and beginner coder. He founded Fundraise.boston in November, 2020 as an independent study (self directed project that operates like class), with the goal of enabling people to give to charity while supporting local businesses. </div>
@@ -29,6 +42,8 @@
    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
    
 .jackbio {
+position: relative;
+top: 5vw;
 width: 60.7vw;
 border-style: solid;
 border-width: .75vw;
@@ -92,6 +107,39 @@ text-align: left;
 }
 
 </style>
-</body>
-</html>
+</section>
 
+
+
+
+
+      <section style="background-color:white">Section 3</section>
+    </div>
+    <script src="https://jackbotein.github.io/fundraise.boston/full-page-scroll.js"></script>
+    <script type="text/javascript">
+      new fullScroll({
+        mainElement: "main",
+        displayDots: false,
+        dotsPosition: "left",
+        animateTime: 1.0,
+        animateFunction: "ease",
+      });
+    </script>
+    <style>
+    .downarrow {
+    text-decoration: none;
+    transition-duration: .5s;
+    }
+    
+    .downarrow:hover {
+    margin-top: 13px;
+    }
+    
+    .description {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    color: white;
+    }
+  </body>
+</html>
