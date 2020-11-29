@@ -71,15 +71,19 @@ left: 4.75vw;
 
 </style>
       </section>
-      
-      
-      
-      
-      
+
+
+
+
+
       <section style="background-color:black">
+      <center>
       <div class="pagetopspacer"></div>
-      <div class="heading">1. Zero fees</div>
-      <div class="content1">100% of post charity revenue goes to the local business.</div>
+      <div class="heading">Pottery @ Clay Room</div>
+      <div class="content1"><div class="contenttext"><br><u>Time:</u>   Sunday 11/22/20 from 9-10am<br><u>Includes:</u>  1x daylong lift ticket + map to mountain<br><u>Price:</u>  $20 ($4 benefits cause)<br><u>Location:</u>  4001 Washington Street Canton, MA</div><br></div>
+      <br>
+      <a href=""><button>Sign Up</button></a>
+      </center>
       </section>
       
       
@@ -87,49 +91,13 @@ left: 4.75vw;
       
       
       <section style="background-color:black">
+      <center>
       <div class="pagetopspacer"></div>
-      <div class="heading">2. Less than half the cost of listing on Groupon</div>
-      <div class="content">Listing on Fundraise.boston results in 20% of the sale price going to charity, whereas Groupon charges a 20% fee<a href="https://marketplace.groupon.com/support/solutions/articles/5000808521-deal-commission-rates" target="blank">¹</a> and has an average discount of 23%, 43% in total listing costs versus 20% with Fundraise.boston.</div>
-      </section>
-      
-      
-      
-      
-      
-      <section style="background-color:black">
-      <div class="pagetopspacer"></div>
-      <div class="heading">3. Tax benefit</div>
-      <div class="content">By listing on Fundraise.boston, you can claim a charitable deduction equivalent to 20% of every sale made. This is because you are effectively selling your experience at 80% of your base margin, with the other 20% going to charity. With a 21% corporate tax rate, this 20% donation will likely significantly reduce your tax burden.</div>
-      </section>
-      
-      
-      
-      
-      
-      <section style="background-color:black">
-      <div class="pagetopspacer"></div>
-      <div class="heading">4. Flexibility and responsiveness</div>
-      <div class="content">On Fundraise.boston our goal is to enable local businesses to maximize their revenue. Our technology enables you to simply text us in order to immediately remove or add you to a listing based on demand. Additionally, we will have your listing online in less than five minutes, guaranteed.</div>
-      </section>
-      
-      
-      
-      
-      
-      <section style="background-color:black">
-      <div class="pagetopspacer"></div>
-      <div class="heading">5. Social good</div>
-      <div class="content">By partnering with Fundraise.boston, you are supporting countless charities that have a real impact on this world. For example, one of our recent fundraisers was for <i>The Greater Boston Food Bank</i>, which delivered 50 million healthy meals to those in need last year alone.</div>
-      </section>
-      
-      
-      
-      
-      
-      <section style="background-color:black">
-<br>
-<div class="iframe1">
-<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPJKJecrcw9d4VK2Uk09CHT2TTWZMdbDFgYZce7SsbdIrWKA/viewform?embedded=true" scrolling="yes" width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center></div>
+      <div class="heading">Skiing @ Blue Hills Ski Area</div>
+      <div class="content1"><div class="contenttext"><br><u>Benefits:</u> The American Civil Liberties Union<br><u>Time:</u>   Sunday 11/22/20 from 9-10am<br><u>Includes:</u>  1x daylong lift ticket + map to mountain<br><u>Price:</u>  $20 ($4 benefits the ACLU)<br><u>Location:</u>  4001 Washington Street Canton, MA</div><br></div>
+      <br>
+      <a href=""><button>Sign Up</button></a>
+      </center>
       </section>
       
       
@@ -150,7 +118,17 @@ left: 4.75vw;
     
     @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
-    
+   
+   button {
+   font-family:'Work Sans', sans-serif;
+   background-color: white;
+   width: 20%;
+   height: 5.75%;
+   font-size: 20px;
+   border-width: 0px;
+   transition-duration: 2s;
+   }
+   
     .maintitle {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -165,6 +143,7 @@ left: 4.75vw;
     }
     
     .backtotop {
+
     font-family:'Work Sans', sans-serif;
     text-align: center;
     position: relative;
@@ -197,15 +176,45 @@ left: 4.75vw;
     margin-left: 6%;
     margin-right: 6%;
     }
+    
+    .contenttext {
+    margin-left: 5%;
+    line-height: 200%;
+    }
 	    
     .content1 {
+    width: 90vw;
+    height: 45vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
     font-family:'Work Sans', sans-serif;
+    background-image: 		       url("https://jackbotein.github.io/fundraise.boston/Bluehills1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    font-size: 0px;
+    text-align: left;
+    margin-top: 6%;
+    transition-duration: 2s;
+    }
+    
+        .content1:hover {
+    width: 90vw;
+    height: 45vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    font-family:'Work Sans', sans-serif;
+    background-image: url("https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     color: white;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     margin-top: 6%;
-    margin-left: 6%;
-    margin-right: 6%;
     }
     
 a {
@@ -235,7 +244,7 @@ color: red;
     }
     
     .pagetopspacer {
-    height: 20%;
+    height: 10%;
     }
     
     .pagetopspacer2 {
