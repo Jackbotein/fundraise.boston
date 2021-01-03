@@ -25,16 +25,17 @@
    }
    
    .blockersearchbar {
-   position: absolute;
-   top: 55%;
+   position: relative;
+   top: -11%;
    width: 100%;
    height:15%;
    background-color: black;
    }
    
    .searchicon {
-   border-width: 2px;
-   border-color: gray;
+   border-style: solid;
+   border-width: 2.5px;
+   border-color: #cccccc;
    text-align: center;
    position: relative;
    top: -23.6%;
@@ -42,6 +43,12 @@
    padding: 3px;
    background-color: white;
    width: 4%;
+   transition-duration: .5s;
+   }
+   
+   .searchicon:hover {
+   border-width: 2.5px;
+   border-color: #2174d3;
    }
 
 </style>
